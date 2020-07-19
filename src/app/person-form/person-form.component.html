@@ -16,7 +16,7 @@
       <div class="form-group">
 
         <label for="email">Country</label>      
-        <select id="country" name="country" [(ngModel)]="country" class="form-control">          
+        <select id="country" name="country" [(ngModel)]="person.country" class="form-control">          
           <option *ngFor="let item of countrys" [value]="item.id" >
             {{item.name}}            
           </option>        
